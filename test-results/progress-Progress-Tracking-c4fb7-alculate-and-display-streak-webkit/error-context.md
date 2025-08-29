@@ -1,0 +1,273 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - link "AI Learn" [ref=e6]:
+      - /url: /
+      - img [ref=e7]
+      - generic [ref=e15]: AI Learn
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - heading "Navigation" [level=2] [ref=e21]
+        - navigation [ref=e22]:
+          - link "Home" [ref=e23]:
+            - /url: /
+            - img
+            - text: Home
+          - link "Courses" [ref=e24]:
+            - /url: /courses
+            - img
+            - text: Courses
+          - link "Playground" [ref=e25]:
+            - /url: /playground
+            - img
+            - text: Playground
+          - link "Achievements" [ref=e26]:
+            - /url: /achievements
+            - img
+            - text: Achievements
+          - link "Settings" [ref=e27]:
+            - /url: /settings
+            - img
+            - text: Settings
+      - generic [ref=e28]:
+        - heading "Learning Paths" [level=2] [ref=e29]
+        - navigation [ref=e30]:
+          - link "AI Fundamentals" [ref=e32]:
+            - /url: /courses/ai-fundamentals
+            - img
+            - generic [ref=e33]: AI Fundamentals
+          - link "Prompt Engineering" [ref=e35]:
+            - /url: /courses/prompt-engineering
+            - img
+            - generic [ref=e36]: Prompt Engineering
+          - link "RAG Systems" [ref=e38]:
+            - /url: /courses/rag-systems
+            - img
+            - generic [ref=e39]: RAG Systems
+          - link "Agent Development" [ref=e41]:
+            - /url: /courses/agent-development
+            - img
+            - generic [ref=e42]: Agent Development
+          - link "Fine-tuning" [ref=e44]:
+            - /url: /courses/fine-tuning
+            - img
+            - generic [ref=e45]: Fine-tuning
+          - link "Production & Scaling" [ref=e47]:
+            - /url: /courses/production-scaling
+            - img
+            - generic [ref=e48]: Production & Scaling
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]: Total Points
+        - generic [ref=e53]: "0"
+      - generic [ref=e54]:
+        - generic [ref=e55]: Streak
+        - generic [ref=e56]: 0 days
+  - generic [ref=e57]:
+    - banner [ref=e58]:
+      - generic [ref=e59]:
+        - navigation "Breadcrumb" [ref=e60]:
+          - list [ref=e61]:
+            - listitem [ref=e62]:
+              - link "Home" [ref=e63]:
+                - /url: /
+                - img [ref=e64]
+                - generic [ref=e67]: Home
+            - generic [ref=e68]:
+              - listitem [ref=e69]:
+                - img [ref=e70]
+              - listitem [ref=e72]:
+                - link "Courses" [ref=e73]:
+                  - /url: /courses
+            - generic [ref=e74]:
+              - listitem [ref=e75]:
+                - img [ref=e76]
+              - listitem [ref=e78]:
+                - link "Ai Fundamentals" [ref=e79]:
+                  - /url: /courses/ai-fundamentals
+            - generic [ref=e80]:
+              - listitem [ref=e81]:
+                - img [ref=e82]
+              - listitem [ref=e84]:
+                - link "Lessons" [ref=e85]:
+                  - /url: /courses/ai-fundamentals/lessons
+            - generic [ref=e86]:
+              - listitem [ref=e87]:
+                - img [ref=e88]
+              - listitem [ref=e90]:
+                - link "History Evolution" [disabled] [ref=e91]
+        - button "Toggle theme" [ref=e93]:
+          - img
+          - generic [ref=e94]: Toggle theme
+    - main [ref=e95]:
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e98]:
+            - link "Back to Course" [ref=e99]:
+              - /url: /courses/ai-fundamentals
+              - img
+              - text: Back to Course
+            - heading "AI Fundamentals" [level=3] [ref=e100]
+            - paragraph [ref=e101]: 2 modules • 5 lessons
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - heading "Module 1" [level=4] [ref=e107]
+              - paragraph [ref=e108]: Introduction to AI and LLMs
+              - generic [ref=e109]:
+                - link "Lesson 1 History and Evolution of AI 20 min" [ref=e110]:
+                  - /url: /courses/ai-fundamentals/lessons/history-evolution
+                  - generic [ref=e111]:
+                    - img
+                    - generic [ref=e112]:
+                      - generic [ref=e113]:
+                        - img
+                        - generic [ref=e114]: Lesson 1
+                      - paragraph [ref=e115]: History and Evolution of AI
+                      - generic [ref=e116]: 20 min
+                - link "Lesson 2 What are Large Language Models? 30 min" [ref=e117]:
+                  - /url: /courses/ai-fundamentals/lessons/llm-basics
+                  - generic [ref=e118]:
+                    - img
+                    - generic [ref=e119]:
+                      - generic [ref=e120]:
+                        - img
+                        - generic [ref=e121]: Lesson 2
+                      - paragraph [ref=e122]: What are Large Language Models?
+                      - generic [ref=e123]: 30 min
+                - link "Lesson 3 Capabilities and Limitations 25 min" [ref=e124]:
+                  - /url: /courses/ai-fundamentals/lessons/capabilities-limitations
+                  - generic [ref=e125]:
+                    - img
+                    - generic [ref=e126]:
+                      - generic [ref=e127]:
+                        - img
+                        - generic [ref=e128]: Lesson 3
+                      - paragraph [ref=e129]: Capabilities and Limitations
+                      - generic [ref=e130]: 25 min
+                - link "Lesson 4 Real-World Applications 15 min" [ref=e131]:
+                  - /url: /courses/ai-fundamentals/lessons/real-world-applications
+                  - generic [ref=e132]:
+                    - img
+                    - generic [ref=e133]:
+                      - generic [ref=e134]:
+                        - img
+                        - generic [ref=e135]: Lesson 4
+                      - paragraph [ref=e136]: Real-World Applications
+                      - generic [ref=e137]: 15 min
+            - generic [ref=e138]:
+              - heading "Module 2" [level=4] [ref=e139]
+              - paragraph [ref=e140]: Understanding Transformer Architecture
+              - link "Lesson 1 The Attention Mechanism 40 min" [ref=e142]:
+                - /url: /courses/ai-fundamentals/lessons/attention-mechanism
+                - generic [ref=e143]:
+                  - img
+                  - generic [ref=e144]:
+                    - generic [ref=e145]:
+                      - img
+                      - generic [ref=e146]: Lesson 1
+                    - paragraph [ref=e147]: The Attention Mechanism
+                    - generic [ref=e148]: 40 min
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - generic [ref=e155]:
+                  - img [ref=e156]
+                  - generic [ref=e158]: reading
+                  - generic [ref=e159]:
+                    - img [ref=e160]
+                    - generic [ref=e163]: 20 min
+                - generic [ref=e164]: History and Evolution of AI
+              - img [ref=e165]
+            - generic [ref=e167]:
+              - generic [ref=e168]:
+                - generic [ref=e169]:
+                  - img [ref=e170]
+                  - text: Learning Objectives
+                - list [ref=e174]:
+                  - listitem [ref=e175]:
+                    - generic [ref=e176]: •
+                    - generic [ref=e177]: Understand the timeline of AI development
+                  - listitem [ref=e178]:
+                    - generic [ref=e179]: •
+                    - generic [ref=e180]: Learn about key breakthroughs in LLM technology
+                  - listitem [ref=e181]:
+                    - generic [ref=e182]: •
+                    - generic [ref=e183]: Recognize the impact of transformers on modern AI
+              - generic [ref=e184]:
+                - heading "History and Evolution of AI" [level=1] [ref=e185]
+                - heading "The Journey to Modern LLMs" [level=2] [ref=e186]
+                - paragraph [ref=e187]: Artificial Intelligence has evolved dramatically since its inception in the 1950s. Let's explore the key milestones that led to today's powerful language models.
+                - heading "Early Foundations (1950s-1980s)" [level=3] [ref=e188]
+                - list [ref=e189]:
+                  - listitem [ref=e190]:
+                    - strong [ref=e191]: "1950"
+                    - text: ": Alan Turing proposes the Turing Test"
+                  - listitem [ref=e192]:
+                    - strong [ref=e193]: "1956"
+                    - text: ": The term \"Artificial Intelligence\" is coined at Dartmouth Conference"
+                  - listitem [ref=e194]:
+                    - strong [ref=e195]: "1966"
+                    - text: ": ELIZA, the first chatbot, demonstrates natural language processing"
+                - heading "The AI Winters and Resurgence (1980s-2000s)" [level=3] [ref=e196]
+                - list [ref=e197]:
+                  - listitem [ref=e198]: Multiple periods of reduced funding and interest
+                  - listitem [ref=e199]: Rise of machine learning and statistical approaches
+                  - listitem [ref=e200]: Introduction of neural networks and backpropagation
+                - heading "The Deep Learning Revolution (2010s)" [level=3] [ref=e201]
+                - list [ref=e202]:
+                  - listitem [ref=e203]:
+                    - strong [ref=e204]: "2012"
+                    - text: ": AlexNet wins ImageNet competition"
+                  - listitem [ref=e205]:
+                    - strong [ref=e206]: "2014"
+                    - text: ": Introduction of Generative Adversarial Networks (GANs)"
+                  - listitem [ref=e207]:
+                    - strong [ref=e208]: "2017"
+                    - text: ": \"Attention is All You Need\" paper introduces Transformers"
+                - heading "The Era of Large Language Models (2018-Present)" [level=3] [ref=e209]
+                - list [ref=e210]:
+                  - listitem [ref=e211]:
+                    - strong [ref=e212]: "2018"
+                    - text: ": BERT revolutionizes NLP tasks"
+                  - listitem [ref=e213]:
+                    - strong [ref=e214]: "2020"
+                    - text: ": GPT-3 demonstrates emergent abilities at scale"
+                  - listitem [ref=e215]:
+                    - strong [ref=e216]: "2022"
+                    - text: ": ChatGPT brings LLMs to mainstream"
+                  - listitem [ref=e217]:
+                    - strong [ref=e218]: 2023-2024
+                    - text: ": Multimodal models and improved reasoning capabilities"
+                - heading "Key Takeaways" [level=2] [ref=e219]
+                - list [ref=e220]:
+                  - listitem [ref=e221]: AI has progressed from rule-based systems to learning-based approaches
+                  - listitem [ref=e222]: The transformer architecture was a breakthrough that enabled modern LLMs
+                  - listitem [ref=e223]: Scale (data, compute, parameters) has been crucial to recent advances
+              - generic [ref=e224]:
+                - heading "Additional Resources" [level=3] [ref=e225]
+                - generic [ref=e226]:
+                  - link "📎 Attention Is All You Need Paper paper" [ref=e227]:
+                    - /url: https://arxiv.org/abs/1706.03762
+                    - generic [ref=e228]: 📎
+                    - generic [ref=e229]: Attention Is All You Need Paper
+                    - generic [ref=e230]: paper
+                  - link "📎 The Illustrated Transformer article" [ref=e231]:
+                    - /url: https://jalammar.github.io/illustrated-transformer/
+                    - generic [ref=e232]: 📎
+                    - generic [ref=e233]: The Illustrated Transformer
+                    - generic [ref=e234]: article
+          - generic [ref=e235]:
+            - button "Previous Lesson" [disabled]:
+              - img
+              - text: Previous Lesson
+            - button "Mark as Complete" [ref=e236]:
+              - text: Mark as Complete
+              - img
+            - link "Next Lesson" [ref=e237]:
+              - /url: /courses/ai-fundamentals/lessons/llm-basics
+              - text: Next Lesson
+              - img
+```

@@ -1,0 +1,211 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "Toggle menu" [ref=e6]:
+        - img
+        - generic [ref=e7]: Toggle menu
+      - navigation "Breadcrumb" [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Home" [ref=e11]:
+              - /url: /
+              - img [ref=e12]
+              - generic [ref=e15]: Home
+          - generic [ref=e16]:
+            - listitem [ref=e17]:
+              - img [ref=e18]
+            - listitem [ref=e20]:
+              - link "Courses" [ref=e21]:
+                - /url: /courses
+          - generic [ref=e22]:
+            - listitem [ref=e23]:
+              - img [ref=e24]
+            - listitem [ref=e26]:
+              - link "Ai Fundamentals" [ref=e27]:
+                - /url: /courses/ai-fundamentals
+          - generic [ref=e28]:
+            - listitem [ref=e29]:
+              - img [ref=e30]
+            - listitem [ref=e32]:
+              - link "Lessons" [ref=e33]:
+                - /url: /courses/ai-fundamentals/lessons
+          - generic [ref=e34]:
+            - listitem [ref=e35]:
+              - img [ref=e36]
+            - listitem [ref=e38]:
+              - link "Llm Basics" [disabled] [ref=e39]
+      - button "Toggle theme" [ref=e41]:
+        - img
+        - generic [ref=e42]: Toggle theme
+  - main [ref=e43]:
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - link "Back to Course" [ref=e47]:
+            - /url: /courses/ai-fundamentals
+            - img
+            - text: Back to Course
+          - heading "AI Fundamentals" [level=3] [ref=e48]
+          - paragraph [ref=e49]: 2 modules • 5 lessons
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - heading "Module 1" [level=4] [ref=e55]
+            - paragraph [ref=e56]: Introduction to AI and LLMs
+            - generic [ref=e57]:
+              - link "Lesson 1 History and Evolution of AI 20 min" [ref=e58]:
+                - /url: /courses/ai-fundamentals/lessons/history-evolution
+                - generic [ref=e59]:
+                  - img
+                  - generic [ref=e60]:
+                    - generic [ref=e61]:
+                      - img
+                      - generic [ref=e62]: Lesson 1
+                    - paragraph [ref=e63]: History and Evolution of AI
+                    - generic [ref=e64]: 20 min
+              - link "Lesson 2 What are Large Language Models? 30 min" [ref=e65]:
+                - /url: /courses/ai-fundamentals/lessons/llm-basics
+                - generic [ref=e66]:
+                  - img
+                  - generic [ref=e67]:
+                    - generic [ref=e68]:
+                      - img
+                      - generic [ref=e69]: Lesson 2
+                    - paragraph [ref=e70]: What are Large Language Models?
+                    - generic [ref=e71]: 30 min
+              - link "Lesson 3 Capabilities and Limitations 25 min" [ref=e72]:
+                - /url: /courses/ai-fundamentals/lessons/capabilities-limitations
+                - generic [ref=e73]:
+                  - img
+                  - generic [ref=e74]:
+                    - generic [ref=e75]:
+                      - img
+                      - generic [ref=e76]: Lesson 3
+                    - paragraph [ref=e77]: Capabilities and Limitations
+                    - generic [ref=e78]: 25 min
+              - link "Lesson 4 Real-World Applications 15 min" [ref=e79]:
+                - /url: /courses/ai-fundamentals/lessons/real-world-applications
+                - generic [ref=e80]:
+                  - img
+                  - generic [ref=e81]:
+                    - generic [ref=e82]:
+                      - img
+                      - generic [ref=e83]: Lesson 4
+                    - paragraph [ref=e84]: Real-World Applications
+                    - generic [ref=e85]: 15 min
+          - generic [ref=e86]:
+            - heading "Module 2" [level=4] [ref=e87]
+            - paragraph [ref=e88]: Understanding Transformer Architecture
+            - link "Lesson 1 The Attention Mechanism 40 min" [ref=e90]:
+              - /url: /courses/ai-fundamentals/lessons/attention-mechanism
+              - generic [ref=e91]:
+                - img
+                - generic [ref=e92]:
+                  - generic [ref=e93]:
+                    - img
+                    - generic [ref=e94]: Lesson 1
+                  - paragraph [ref=e95]: The Attention Mechanism
+                  - generic [ref=e96]: 40 min
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - img [ref=e104]
+                - generic [ref=e107]: interactive
+                - generic [ref=e108]:
+                  - img [ref=e109]
+                  - generic [ref=e112]: 30 min
+              - generic [ref=e113]: What are Large Language Models?
+            - img [ref=e114]
+          - generic [ref=e116]:
+            - generic [ref=e117]:
+              - generic: Learning Objectives
+              - list:
+                - listitem:
+                  - generic [ref=e121]: •
+                  - generic [ref=e122]: Define what makes a model a "Large Language Model"
+                - listitem:
+                  - generic [ref=e123]: •
+                  - generic [ref=e124]: Understand the concept of parameters and scale
+                - listitem:
+                  - generic [ref=e125]: •
+                  - generic [ref=e126]: Learn about different model families and architectures
+            - generic:
+              - heading "What are Large Language Models?" [level=1]
+              - heading "Definition and Characteristics" [level=2]
+              - paragraph:
+                - text: A
+                - strong [ref=e127]: Large Language Model (LLM)
+                - text: "is a type of artificial intelligence model that:"
+              - list:
+                - listitem: Is trained on vast amounts of text data
+                - listitem: Contains billions of parameters
+                - listitem: Can understand and generate human-like text
+                - listitem: Exhibits emergent abilities at scale
+              - heading "Key Components" [level=2]
+              - heading "Parameters" [level=3]
+              - paragraph: "Parameters are the learned weights in the neural network. Modern LLMs have:"
+              - list:
+                - listitem: "GPT-3: 175 billion parameters"
+                - listitem: "GPT-4: Estimated 1.7 trillion parameters"
+                - listitem: "Claude 3: Undisclosed, but comparable scale"
+              - heading "Training Data" [level=3]
+              - paragraph: "LLMs are trained on diverse text sources:"
+              - list:
+                - listitem: Web pages and articles
+                - listitem: Books and academic papers
+                - listitem: Code repositories
+                - listitem: Reference materials
+              - heading "Architecture" [level=3]
+              - paragraph: "Most modern LLMs use the Transformer architecture:"
+              - list:
+                - listitem: Self-attention mechanism
+                - listitem: Parallel processing capabilities
+                - listitem: Positional encoding for sequence understanding
+              - heading "Model Families" [level=2]
+              - heading "Decoder-Only Models (GPT Family)" [level=3]
+              - list:
+                - listitem: Autoregressive generation
+                - listitem: Good for creative tasks and general assistance
+                - listitem: "Examples: GPT-4, Claude, LLaMA"
+              - heading "Encoder-Decoder Models (T5, BART)" [level=3]
+              - list:
+                - listitem: Good for translation and summarization
+                - listitem: Can handle input-output transformations
+              - heading "Encoder-Only Models (BERT Family)" [level=3]
+              - list:
+                - listitem: Bidirectional understanding
+                - listitem: Excellent for classification and analysis
+                - listitem: Not typically used for generation
+              - heading "Interactive Exercise" [level=2]
+              - paragraph: "Try predicting the next word in these sequences to understand how LLMs work:"
+              - list:
+                - listitem: "\"The capital of France is ___\""
+                - listitem: "\"To be or not to ___\""
+                - listitem: "\"import numpy as ___\""
+              - paragraph: Notice how context helps you predict the most likely continuation!
+            - generic:
+              - tablist [ref=e128]:
+                - tab "Exercise" [selected] [ref=e129]
+                - tab "Hints" [ref=e130]
+              - tabpanel "Exercise":
+                - generic:
+                  - heading "LLM Fundamentals Quiz" [level=3]
+                  - paragraph: Test your understanding of Large Language Models
+                - button "Start Exercise" [ref=e131]
+        - generic [ref=e132]:
+          - link "Previous Lesson" [ref=e133]:
+            - /url: /courses/ai-fundamentals/lessons/history-evolution
+            - img
+            - text: Previous Lesson
+          - button "Mark as Complete" [ref=e134]:
+            - text: Mark as Complete
+            - img
+          - link "Next Lesson" [ref=e135]:
+            - /url: /courses/ai-fundamentals/lessons/capabilities-limitations
+            - text: Next Lesson
+            - img
+```

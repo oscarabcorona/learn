@@ -1,0 +1,210 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "Toggle menu" [ref=e6]:
+        - img
+        - generic [ref=e7]: Toggle menu
+      - navigation "Breadcrumb" [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Home" [ref=e11]:
+              - /url: /
+              - img [ref=e12]
+              - generic [ref=e15]: Home
+          - generic [ref=e16]:
+            - listitem [ref=e17]:
+              - img [ref=e18]
+            - listitem [ref=e20]:
+              - link "Courses" [ref=e21]:
+                - /url: /courses
+          - generic [ref=e22]:
+            - listitem [ref=e23]:
+              - img [ref=e24]
+            - listitem [ref=e26]:
+              - link "Ai Fundamentals" [ref=e27]:
+                - /url: /courses/ai-fundamentals
+          - generic [ref=e28]:
+            - listitem [ref=e29]:
+              - img [ref=e30]
+            - listitem [ref=e32]:
+              - link "Lessons" [ref=e33]:
+                - /url: /courses/ai-fundamentals/lessons
+          - generic [ref=e34]:
+            - listitem [ref=e35]:
+              - img [ref=e36]
+            - listitem [ref=e38]:
+              - link "History Evolution" [disabled] [ref=e39]
+      - button "Toggle theme" [ref=e41]:
+        - img
+        - generic [ref=e42]: Toggle theme
+  - main [ref=e43]:
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - link "Back to Course" [ref=e47]:
+            - /url: /courses/ai-fundamentals
+            - img
+            - text: Back to Course
+          - heading "AI Fundamentals" [level=3] [ref=e48]
+          - paragraph [ref=e49]: 2 modules • 5 lessons
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - heading "Module 1" [level=4] [ref=e55]
+            - paragraph [ref=e56]: Introduction to AI and LLMs
+            - generic [ref=e57]:
+              - link "Lesson 1 History and Evolution of AI 20 min" [ref=e58]:
+                - /url: /courses/ai-fundamentals/lessons/history-evolution
+                - generic [ref=e59]:
+                  - img
+                  - generic [ref=e60]:
+                    - generic [ref=e61]:
+                      - img
+                      - generic [ref=e62]: Lesson 1
+                    - paragraph [ref=e63]: History and Evolution of AI
+                    - generic [ref=e64]: 20 min
+              - link "Lesson 2 What are Large Language Models? 30 min" [ref=e65]:
+                - /url: /courses/ai-fundamentals/lessons/llm-basics
+                - generic [ref=e66]:
+                  - img
+                  - generic [ref=e67]:
+                    - generic [ref=e68]:
+                      - img
+                      - generic [ref=e69]: Lesson 2
+                    - paragraph [ref=e70]: What are Large Language Models?
+                    - generic [ref=e71]: 30 min
+              - link "Lesson 3 Capabilities and Limitations 25 min" [ref=e72]:
+                - /url: /courses/ai-fundamentals/lessons/capabilities-limitations
+                - generic [ref=e73]:
+                  - img
+                  - generic [ref=e74]:
+                    - generic [ref=e75]:
+                      - img
+                      - generic [ref=e76]: Lesson 3
+                    - paragraph [ref=e77]: Capabilities and Limitations
+                    - generic [ref=e78]: 25 min
+              - link "Lesson 4 Real-World Applications 15 min" [ref=e79]:
+                - /url: /courses/ai-fundamentals/lessons/real-world-applications
+                - generic [ref=e80]:
+                  - img
+                  - generic [ref=e81]:
+                    - generic [ref=e82]:
+                      - img
+                      - generic [ref=e83]: Lesson 4
+                    - paragraph [ref=e84]: Real-World Applications
+                    - generic [ref=e85]: 15 min
+          - generic [ref=e86]:
+            - heading "Module 2" [level=4] [ref=e87]
+            - paragraph [ref=e88]: Understanding Transformer Architecture
+            - link "Lesson 1 The Attention Mechanism 40 min" [ref=e90]:
+              - /url: /courses/ai-fundamentals/lessons/attention-mechanism
+              - generic [ref=e91]:
+                - img
+                - generic [ref=e92]:
+                  - generic [ref=e93]:
+                    - img
+                    - generic [ref=e94]: Lesson 1
+                  - paragraph [ref=e95]: The Attention Mechanism
+                  - generic [ref=e96]: 40 min
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - img [ref=e104]
+                - generic [ref=e106]: reading
+                - generic [ref=e107]:
+                  - img [ref=e108]
+                  - generic [ref=e111]: 20 min
+              - generic [ref=e112]: History and Evolution of AI
+            - img [ref=e113]
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - generic: Learning Objectives
+              - list:
+                - listitem:
+                  - generic [ref=e120]: •
+                  - generic [ref=e121]: Understand the timeline of AI development
+                - listitem:
+                  - generic [ref=e122]: •
+                  - generic [ref=e123]: Learn about key breakthroughs in LLM technology
+                - listitem:
+                  - generic [ref=e124]: •
+                  - generic [ref=e125]: Recognize the impact of transformers on modern AI
+            - generic:
+              - heading "History and Evolution of AI" [level=1]
+              - heading "The Journey to Modern LLMs" [level=2]
+              - paragraph: Artificial Intelligence has evolved dramatically since its inception in the 1950s. Let's explore the key milestones that led to today's powerful language models.
+              - heading "Early Foundations (1950s-1980s)" [level=3]
+              - list:
+                - listitem:
+                  - strong [ref=e126]: "1950"
+                  - text: ": Alan Turing proposes the Turing Test"
+                - listitem:
+                  - strong [ref=e127]: "1956"
+                  - text: ": The term \"Artificial Intelligence\" is coined at Dartmouth Conference"
+                - listitem:
+                  - strong [ref=e128]: "1966"
+                  - text: ": ELIZA, the first chatbot, demonstrates natural language processing"
+              - heading "The AI Winters and Resurgence (1980s-2000s)" [level=3]
+              - list:
+                - listitem: Multiple periods of reduced funding and interest
+                - listitem: Rise of machine learning and statistical approaches
+                - listitem: Introduction of neural networks and backpropagation
+              - heading "The Deep Learning Revolution (2010s)" [level=3]
+              - list:
+                - listitem:
+                  - strong [ref=e129]: "2012"
+                  - text: ": AlexNet wins ImageNet competition"
+                - listitem:
+                  - strong [ref=e130]: "2014"
+                  - text: ": Introduction of Generative Adversarial Networks (GANs)"
+                - listitem:
+                  - strong [ref=e131]: "2017"
+                  - text: ": \"Attention is All You Need\" paper introduces Transformers"
+              - heading "The Era of Large Language Models (2018-Present)" [level=3]
+              - list:
+                - listitem:
+                  - strong [ref=e132]: "2018"
+                  - text: ": BERT revolutionizes NLP tasks"
+                - listitem:
+                  - strong [ref=e133]: "2020"
+                  - text: ": GPT-3 demonstrates emergent abilities at scale"
+                - listitem:
+                  - strong [ref=e134]: "2022"
+                  - text: ": ChatGPT brings LLMs to mainstream"
+                - listitem:
+                  - strong [ref=e135]: 2023-2024
+                  - text: ": Multimodal models and improved reasoning capabilities"
+              - heading "Key Takeaways" [level=2]
+              - list:
+                - listitem: AI has progressed from rule-based systems to learning-based approaches
+                - listitem: The transformer architecture was a breakthrough that enabled modern LLMs
+                - listitem: Scale (data, compute, parameters) has been crucial to recent advances
+            - generic:
+              - heading "Additional Resources" [level=3]
+              - generic:
+                - link "📎 Attention Is All You Need Paper paper":
+                  - /url: https://arxiv.org/abs/1706.03762
+                  - generic [ref=e136]: 📎
+                  - generic [ref=e137]: Attention Is All You Need Paper
+                  - generic [ref=e138]: paper
+                - link "📎 The Illustrated Transformer article":
+                  - /url: https://jalammar.github.io/illustrated-transformer/
+                  - generic [ref=e139]: 📎
+                  - generic [ref=e140]: The Illustrated Transformer
+                  - generic [ref=e141]: article
+        - generic [ref=e142]:
+          - button "Previous Lesson" [disabled]:
+            - img
+            - text: Previous Lesson
+          - button "Mark as Complete" [ref=e143]:
+            - text: Mark as Complete
+            - img
+          - link "Next Lesson" [ref=e144]:
+            - /url: /courses/ai-fundamentals/lessons/llm-basics
+            - text: Next Lesson
+            - img
+```

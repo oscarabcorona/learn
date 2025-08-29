@@ -1,0 +1,158 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Toggle menu" [ref=e6]:
+          - img
+          - generic [ref=e7]: Toggle menu
+        - navigation "Breadcrumb" [ref=e8]:
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Home" [ref=e11]:
+                - /url: /
+                - img [ref=e12]
+                - generic [ref=e15]: Home
+            - generic [ref=e16]:
+              - listitem [ref=e17]:
+                - img [ref=e18]
+              - listitem [ref=e20]:
+                - link "Courses" [ref=e21]:
+                  - /url: /courses
+            - generic [ref=e22]:
+              - listitem [ref=e23]:
+                - img [ref=e24]
+              - listitem [ref=e26]:
+                - link "Ai Fundamentals" [disabled] [ref=e27]
+        - button "Toggle theme" [ref=e29]:
+          - img
+          - generic [ref=e30]: Toggle theme
+    - main [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e37]:
+            - generic [ref=e39]: beginner
+            - heading "AI Fundamentals" [level=1] [ref=e40]
+            - paragraph [ref=e41]: Master the core concepts of AI and Large Language Models. Learn about transformers, tokenization, embeddings, and the architecture that powers modern AI systems.
+            - generic [ref=e42]:
+              - generic [ref=e43]: fundamentals
+              - generic [ref=e44]: transformers
+              - generic [ref=e45]: llm
+              - generic [ref=e46]: neural-networks
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - img [ref=e49]
+                - generic [ref=e52]: 12 hours
+              - generic [ref=e53]:
+                - img [ref=e54]
+                - generic [ref=e56]: 2 modules
+              - generic [ref=e57]:
+                - img [ref=e58]
+                - generic [ref=e62]: 5 lessons
+            - button "Start Course" [ref=e64]:
+              - img
+              - text: Start Course
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - generic [ref=e67]: What You'll Learn
+              - generic [ref=e68]: Key concepts and skills covered in this course
+            - generic [ref=e70]:
+              - generic [ref=e71]:
+                - img [ref=e72]
+                - generic [ref=e75]: Understand the timeline of AI development
+              - generic [ref=e76]:
+                - img [ref=e77]
+                - generic [ref=e80]: Learn about key breakthroughs in LLM technology
+              - generic [ref=e81]:
+                - img [ref=e82]
+                - generic [ref=e85]: Recognize the impact of transformers on modern AI
+              - generic [ref=e86]:
+                - img [ref=e87]
+                - generic [ref=e90]: Define what makes a model a "Large Language Model"
+              - generic [ref=e91]:
+                - img [ref=e92]
+                - generic [ref=e95]: Understand the concept of parameters and scale
+              - generic [ref=e96]:
+                - img [ref=e97]
+                - generic [ref=e100]: Learn about different model families and architectures
+              - generic [ref=e101]:
+                - img [ref=e102]
+                - generic [ref=e105]: Understand what LLMs can and cannot do
+              - generic [ref=e106]:
+                - img [ref=e107]
+                - generic [ref=e110]: Learn about emergent abilities
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - heading "Course Content" [level=2] [ref=e114]
+            - paragraph [ref=e115]: 2 modules • 5 lessons
+          - generic [ref=e116]:
+            - generic [ref=e119] [cursor=pointer]:
+              - button [ref=e120]:
+                - img
+              - generic [ref=e121] [cursor=pointer]:
+                - generic [ref=e123] [cursor=pointer]: "Module 1: Introduction to AI and LLMs"
+                - generic [ref=e124] [cursor=pointer]: Understanding the landscape of artificial intelligence and large language models
+                - generic [ref=e125] [cursor=pointer]:
+                  - generic [ref=e126] [cursor=pointer]:
+                    - img [ref=e127] [cursor=pointer]
+                    - generic [ref=e130] [cursor=pointer]: 90 min
+                  - generic [ref=e131] [cursor=pointer]:
+                    - img [ref=e132] [cursor=pointer]
+                    - generic [ref=e134] [cursor=pointer]: 4 lessons
+            - generic [ref=e138]:
+              - generic [ref=e139] [cursor=pointer]:
+                - generic [ref=e140] [cursor=pointer]:
+                  - img [ref=e141] [cursor=pointer]
+                  - img [ref=e143] [cursor=pointer]
+                  - generic [ref=e145] [cursor=pointer]:
+                    - paragraph [ref=e146] [cursor=pointer]: History and Evolution of AI
+                    - generic [ref=e147] [cursor=pointer]:
+                      - generic [ref=e148] [cursor=pointer]: 20 min
+                      - generic [ref=e149] [cursor=pointer]: reading
+                - button "Start" [ref=e150]:
+                  - img
+                  - text: Start
+              - generic [ref=e152] [cursor=pointer]:
+                - img [ref=e153] [cursor=pointer]
+                - img [ref=e155] [cursor=pointer]
+                - generic [ref=e158] [cursor=pointer]:
+                  - paragraph [ref=e159] [cursor=pointer]: What are Large Language Models?
+                  - generic [ref=e160] [cursor=pointer]:
+                    - generic [ref=e161] [cursor=pointer]: 30 min
+                    - generic [ref=e162] [cursor=pointer]: interactive
+                    - generic [ref=e163] [cursor=pointer]: Has Exercise
+              - generic [ref=e165] [cursor=pointer]:
+                - img [ref=e166] [cursor=pointer]
+                - img [ref=e168] [cursor=pointer]
+                - generic [ref=e170] [cursor=pointer]:
+                  - paragraph [ref=e171] [cursor=pointer]: Capabilities and Limitations
+                  - generic [ref=e172] [cursor=pointer]:
+                    - generic [ref=e173] [cursor=pointer]: 25 min
+                    - generic [ref=e174] [cursor=pointer]: reading
+              - generic [ref=e176] [cursor=pointer]:
+                - img [ref=e177] [cursor=pointer]
+                - img [ref=e179] [cursor=pointer]
+                - generic [ref=e182] [cursor=pointer]:
+                  - paragraph [ref=e183] [cursor=pointer]: Real-World Applications
+                  - generic [ref=e184] [cursor=pointer]:
+                    - generic [ref=e185] [cursor=pointer]: 15 min
+                    - generic [ref=e186] [cursor=pointer]: interactive
+          - generic [ref=e190] [cursor=pointer]:
+            - button [disabled]:
+              - img
+            - generic [ref=e191] [cursor=pointer]:
+              - generic [ref=e193] [cursor=pointer]: "Module 2: Understanding Transformer Architecture"
+              - generic [ref=e194] [cursor=pointer]: Deep dive into the transformer architecture that powers modern LLMs
+              - generic [ref=e195] [cursor=pointer]:
+                - generic [ref=e196] [cursor=pointer]:
+                  - img [ref=e197] [cursor=pointer]
+                  - generic [ref=e200] [cursor=pointer]: 120 min
+                - generic [ref=e201] [cursor=pointer]:
+                  - img [ref=e202] [cursor=pointer]
+                  - generic [ref=e204] [cursor=pointer]: 1 lessons
+  - button "Open Next.js Dev Tools" [ref=e210] [cursor=pointer]:
+    - img [ref=e211] [cursor=pointer]
+  - alert [ref=e216]
+```

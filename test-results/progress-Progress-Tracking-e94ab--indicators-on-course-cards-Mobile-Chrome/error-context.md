@@ -1,0 +1,166 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Toggle menu" [ref=e6]:
+          - img
+          - generic [ref=e7]: Toggle menu
+        - navigation "Breadcrumb" [ref=e8]:
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Home" [ref=e11] [cursor=pointer]:
+                - /url: /
+                - img [ref=e12] [cursor=pointer]
+                - generic [ref=e15] [cursor=pointer]: Home
+            - generic [ref=e16]:
+              - listitem [ref=e17]:
+                - img [ref=e18]
+              - listitem [ref=e20]:
+                - link "Courses" [disabled] [ref=e21]
+        - button "Toggle theme" [ref=e23]:
+          - img
+          - generic [ref=e24]: Toggle theme
+    - main [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - heading "All Courses" [level=1] [ref=e28]
+          - paragraph [ref=e29]: Choose from our comprehensive curriculum covering all aspects of AI and LLM engineering.
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e34]:
+              - generic [ref=e35]: AI Fundamentals
+              - generic [ref=e36]: Master the core concepts of AI and Large Language Models. Learn about transformers, tokenization, embeddings, and the architecture that powers modern AI systems.
+            - generic [ref=e37]:
+              - generic [ref=e38]:
+                - generic [ref=e39]: beginner
+                - generic [ref=e40]: fundamentals
+                - generic [ref=e41]: transformers
+                - generic [ref=e42]: llm
+              - generic [ref=e43]:
+                - generic [ref=e44]:
+                  - img [ref=e45]
+                  - generic [ref=e48]: 12h
+                - generic [ref=e49]:
+                  - img [ref=e50]
+                  - generic [ref=e55]: 2 modules
+              - generic [ref=e56]:
+                - generic [ref=e57]:
+                  - generic [ref=e58]: Progress
+                  - generic [ref=e59]: 0%
+                - progressbar [ref=e60]
+            - link "Continue Learning" [ref=e63] [cursor=pointer]:
+              - /url: /courses/ai-fundamentals
+              - text: Continue Learning
+              - img
+          - generic [ref=e64]:
+            - generic [ref=e67]:
+              - generic [ref=e68]: Prompt Engineering
+              - generic [ref=e69]: Master the art and science of crafting effective prompts. Learn systematic approaches to prompt design, advanced techniques, and best practices for getting optimal results from LLMs.
+            - generic [ref=e70]:
+              - generic [ref=e71]:
+                - generic [ref=e72]: intermediate
+                - generic [ref=e73]: prompts
+                - generic [ref=e74]: few-shot
+                - generic [ref=e75]: chain-of-thought
+              - generic [ref=e76]:
+                - generic [ref=e77]:
+                  - img [ref=e78]
+                  - generic [ref=e81]: 10h
+                - generic [ref=e82]:
+                  - img [ref=e83]
+                  - generic [ref=e88]: 1 modules
+            - link "Start Course" [ref=e90] [cursor=pointer]:
+              - /url: /courses/prompt-engineering
+              - text: Start Course
+              - img
+          - generic [ref=e91]:
+            - generic [ref=e94]:
+              - generic [ref=e95]: RAG Systems
+              - generic [ref=e96]: Build powerful Retrieval-Augmented Generation systems. Learn about vector databases, embeddings, chunking strategies, and advanced retrieval techniques.
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - generic [ref=e99]: advanced
+                - generic [ref=e100]: rag
+                - generic [ref=e101]: embeddings
+                - generic [ref=e102]: vector-db
+              - generic [ref=e103]:
+                - generic [ref=e104]:
+                  - img [ref=e105]
+                  - generic [ref=e108]: 15h
+                - generic [ref=e109]:
+                  - img [ref=e110]
+                  - generic [ref=e115]: 1 modules
+            - link "Start Course" [ref=e117] [cursor=pointer]:
+              - /url: /courses/rag-systems
+              - text: Start Course
+              - img
+          - generic [ref=e118]:
+            - generic [ref=e121]:
+              - generic [ref=e122]: Agent Development
+              - generic [ref=e123]: Create autonomous AI agents that can reason, plan, and use tools. Learn about agent architectures, tool integration, memory systems, and multi-agent coordination.
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - generic [ref=e126]: advanced
+                - generic [ref=e127]: agents
+                - generic [ref=e128]: tools
+                - generic [ref=e129]: planning
+              - generic [ref=e130]:
+                - generic [ref=e131]:
+                  - img [ref=e132]
+                  - generic [ref=e135]: 18h
+                - generic [ref=e136]:
+                  - img [ref=e137]
+                  - generic [ref=e142]: 1 modules
+            - link "Start Course" [ref=e144] [cursor=pointer]:
+              - /url: /courses/agent-development
+              - text: Start Course
+              - img
+          - generic [ref=e145]:
+            - generic [ref=e148]:
+              - generic [ref=e149]: Fine-tuning & Training
+              - generic [ref=e150]: Learn how to customize LLMs for specific tasks. Master dataset preparation, fine-tuning techniques like LoRA, evaluation metrics, and deployment strategies.
+            - generic [ref=e151]:
+              - generic [ref=e152]:
+                - generic [ref=e153]: advanced
+                - generic [ref=e154]: fine-tuning
+                - generic [ref=e155]: training
+                - generic [ref=e156]: lora
+              - generic [ref=e157]:
+                - generic [ref=e158]:
+                  - img [ref=e159]
+                  - generic [ref=e162]: 14h
+                - generic [ref=e163]:
+                  - img [ref=e164]
+                  - generic [ref=e169]: 1 modules
+            - link "Start Course" [ref=e171] [cursor=pointer]:
+              - /url: /courses/fine-tuning
+              - text: Start Course
+              - img
+          - generic [ref=e172]:
+            - generic [ref=e175]:
+              - generic [ref=e176]: Production & Scaling
+              - generic [ref=e177]: Deploy and scale AI applications in production. Learn about API design, cost optimization, monitoring, security, and best practices for reliable AI systems.
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - generic [ref=e180]: advanced
+                - generic [ref=e181]: deployment
+                - generic [ref=e182]: scaling
+                - generic [ref=e183]: monitoring
+              - generic [ref=e184]:
+                - generic [ref=e185]:
+                  - img [ref=e186]
+                  - generic [ref=e189]: 12h
+                - generic [ref=e190]:
+                  - img [ref=e191]
+                  - generic [ref=e196]: 1 modules
+            - link "Start Course" [ref=e198] [cursor=pointer]:
+              - /url: /courses/production-scaling
+              - text: Start Course
+              - img
+  - button "Open Next.js Dev Tools" [ref=e204] [cursor=pointer]:
+    - img [ref=e205] [cursor=pointer]
+  - alert [ref=e208]
+```

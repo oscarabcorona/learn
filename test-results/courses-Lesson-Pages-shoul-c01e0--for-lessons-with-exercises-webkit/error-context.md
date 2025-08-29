@@ -1,0 +1,274 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - link "AI Learn" [ref=e6]:
+      - /url: /
+      - img [ref=e7]
+      - generic [ref=e15]: AI Learn
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - heading "Navigation" [level=2] [ref=e21]
+        - navigation [ref=e22]:
+          - link "Home" [ref=e23]:
+            - /url: /
+            - img
+            - text: Home
+          - link "Courses" [ref=e24]:
+            - /url: /courses
+            - img
+            - text: Courses
+          - link "Playground" [ref=e25]:
+            - /url: /playground
+            - img
+            - text: Playground
+          - link "Achievements" [ref=e26]:
+            - /url: /achievements
+            - img
+            - text: Achievements
+          - link "Settings" [ref=e27]:
+            - /url: /settings
+            - img
+            - text: Settings
+      - generic [ref=e28]:
+        - heading "Learning Paths" [level=2] [ref=e29]
+        - navigation [ref=e30]:
+          - link "AI Fundamentals" [ref=e32]:
+            - /url: /courses/ai-fundamentals
+            - img
+            - generic [ref=e33]: AI Fundamentals
+          - link "Prompt Engineering" [ref=e35]:
+            - /url: /courses/prompt-engineering
+            - img
+            - generic [ref=e36]: Prompt Engineering
+          - link "RAG Systems" [ref=e38]:
+            - /url: /courses/rag-systems
+            - img
+            - generic [ref=e39]: RAG Systems
+          - link "Agent Development" [ref=e41]:
+            - /url: /courses/agent-development
+            - img
+            - generic [ref=e42]: Agent Development
+          - link "Fine-tuning" [ref=e44]:
+            - /url: /courses/fine-tuning
+            - img
+            - generic [ref=e45]: Fine-tuning
+          - link "Production & Scaling" [ref=e47]:
+            - /url: /courses/production-scaling
+            - img
+            - generic [ref=e48]: Production & Scaling
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]: Total Points
+        - generic [ref=e53]: "0"
+      - generic [ref=e54]:
+        - generic [ref=e55]: Streak
+        - generic [ref=e56]: 0 days
+  - generic [ref=e57]:
+    - banner [ref=e58]:
+      - generic [ref=e59]:
+        - navigation "Breadcrumb" [ref=e60]:
+          - list [ref=e61]:
+            - listitem [ref=e62]:
+              - link "Home" [ref=e63]:
+                - /url: /
+                - img [ref=e64]
+                - generic [ref=e67]: Home
+            - generic [ref=e68]:
+              - listitem [ref=e69]:
+                - img [ref=e70]
+              - listitem [ref=e72]:
+                - link "Courses" [ref=e73]:
+                  - /url: /courses
+            - generic [ref=e74]:
+              - listitem [ref=e75]:
+                - img [ref=e76]
+              - listitem [ref=e78]:
+                - link "Ai Fundamentals" [ref=e79]:
+                  - /url: /courses/ai-fundamentals
+            - generic [ref=e80]:
+              - listitem [ref=e81]:
+                - img [ref=e82]
+              - listitem [ref=e84]:
+                - link "Lessons" [ref=e85]:
+                  - /url: /courses/ai-fundamentals/lessons
+            - generic [ref=e86]:
+              - listitem [ref=e87]:
+                - img [ref=e88]
+              - listitem [ref=e90]:
+                - link "Llm Basics" [disabled] [ref=e91]
+        - button "Toggle theme" [ref=e93]:
+          - img
+          - generic [ref=e94]: Toggle theme
+    - main [ref=e95]:
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e98]:
+            - link "Back to Course" [ref=e99]:
+              - /url: /courses/ai-fundamentals
+              - img
+              - text: Back to Course
+            - heading "AI Fundamentals" [level=3] [ref=e100]
+            - paragraph [ref=e101]: 2 modules • 5 lessons
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - heading "Module 1" [level=4] [ref=e107]
+              - paragraph [ref=e108]: Introduction to AI and LLMs
+              - generic [ref=e109]:
+                - link "Lesson 1 History and Evolution of AI 20 min" [ref=e110]:
+                  - /url: /courses/ai-fundamentals/lessons/history-evolution
+                  - generic [ref=e111]:
+                    - img
+                    - generic [ref=e112]:
+                      - generic [ref=e113]:
+                        - img
+                        - generic [ref=e114]: Lesson 1
+                      - paragraph [ref=e115]: History and Evolution of AI
+                      - generic [ref=e116]: 20 min
+                - link "Lesson 2 What are Large Language Models? 30 min" [ref=e117]:
+                  - /url: /courses/ai-fundamentals/lessons/llm-basics
+                  - generic [ref=e118]:
+                    - img
+                    - generic [ref=e119]:
+                      - generic [ref=e120]:
+                        - img
+                        - generic [ref=e121]: Lesson 2
+                      - paragraph [ref=e122]: What are Large Language Models?
+                      - generic [ref=e123]: 30 min
+                - link "Lesson 3 Capabilities and Limitations 25 min" [ref=e124]:
+                  - /url: /courses/ai-fundamentals/lessons/capabilities-limitations
+                  - generic [ref=e125]:
+                    - img
+                    - generic [ref=e126]:
+                      - generic [ref=e127]:
+                        - img
+                        - generic [ref=e128]: Lesson 3
+                      - paragraph [ref=e129]: Capabilities and Limitations
+                      - generic [ref=e130]: 25 min
+                - link "Lesson 4 Real-World Applications 15 min" [ref=e131]:
+                  - /url: /courses/ai-fundamentals/lessons/real-world-applications
+                  - generic [ref=e132]:
+                    - img
+                    - generic [ref=e133]:
+                      - generic [ref=e134]:
+                        - img
+                        - generic [ref=e135]: Lesson 4
+                      - paragraph [ref=e136]: Real-World Applications
+                      - generic [ref=e137]: 15 min
+            - generic [ref=e138]:
+              - heading "Module 2" [level=4] [ref=e139]
+              - paragraph [ref=e140]: Understanding Transformer Architecture
+              - link "Lesson 1 The Attention Mechanism 40 min" [ref=e142]:
+                - /url: /courses/ai-fundamentals/lessons/attention-mechanism
+                - generic [ref=e143]:
+                  - img
+                  - generic [ref=e144]:
+                    - generic [ref=e145]:
+                      - img
+                      - generic [ref=e146]: Lesson 1
+                    - paragraph [ref=e147]: The Attention Mechanism
+                    - generic [ref=e148]: 40 min
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - generic [ref=e155]:
+                  - img [ref=e156]
+                  - generic [ref=e159]: interactive
+                  - generic [ref=e160]:
+                    - img [ref=e161]
+                    - generic [ref=e164]: 30 min
+                - generic [ref=e165]: What are Large Language Models?
+              - img [ref=e166]
+            - generic [ref=e168]:
+              - generic [ref=e169]:
+                - generic [ref=e170]:
+                  - img [ref=e171]
+                  - text: Learning Objectives
+                - list [ref=e175]:
+                  - listitem [ref=e176]:
+                    - generic [ref=e177]: •
+                    - generic [ref=e178]: Define what makes a model a "Large Language Model"
+                  - listitem [ref=e179]:
+                    - generic [ref=e180]: •
+                    - generic [ref=e181]: Understand the concept of parameters and scale
+                  - listitem [ref=e182]:
+                    - generic [ref=e183]: •
+                    - generic [ref=e184]: Learn about different model families and architectures
+              - generic [ref=e185]:
+                - heading "What are Large Language Models?" [level=1] [ref=e186]
+                - heading "Definition and Characteristics" [level=2] [ref=e187]
+                - paragraph [ref=e188]:
+                  - text: A
+                  - strong [ref=e189]: Large Language Model (LLM)
+                  - text: "is a type of artificial intelligence model that:"
+                - list [ref=e190]:
+                  - listitem [ref=e191]: Is trained on vast amounts of text data
+                  - listitem [ref=e192]: Contains billions of parameters
+                  - listitem [ref=e193]: Can understand and generate human-like text
+                  - listitem [ref=e194]: Exhibits emergent abilities at scale
+                - heading "Key Components" [level=2] [ref=e195]
+                - heading "Parameters" [level=3] [ref=e196]
+                - paragraph [ref=e197]: "Parameters are the learned weights in the neural network. Modern LLMs have:"
+                - list [ref=e198]:
+                  - listitem [ref=e199]: "GPT-3: 175 billion parameters"
+                  - listitem [ref=e200]: "GPT-4: Estimated 1.7 trillion parameters"
+                  - listitem [ref=e201]: "Claude 3: Undisclosed, but comparable scale"
+                - heading "Training Data" [level=3] [ref=e202]
+                - paragraph [ref=e203]: "LLMs are trained on diverse text sources:"
+                - list [ref=e204]:
+                  - listitem [ref=e205]: Web pages and articles
+                  - listitem [ref=e206]: Books and academic papers
+                  - listitem [ref=e207]: Code repositories
+                  - listitem [ref=e208]: Reference materials
+                - heading "Architecture" [level=3] [ref=e209]
+                - paragraph [ref=e210]: "Most modern LLMs use the Transformer architecture:"
+                - list [ref=e211]:
+                  - listitem [ref=e212]: Self-attention mechanism
+                  - listitem [ref=e213]: Parallel processing capabilities
+                  - listitem [ref=e214]: Positional encoding for sequence understanding
+                - heading "Model Families" [level=2] [ref=e215]
+                - heading "Decoder-Only Models (GPT Family)" [level=3] [ref=e216]
+                - list [ref=e217]:
+                  - listitem [ref=e218]: Autoregressive generation
+                  - listitem [ref=e219]: Good for creative tasks and general assistance
+                  - listitem [ref=e220]: "Examples: GPT-4, Claude, LLaMA"
+                - heading "Encoder-Decoder Models (T5, BART)" [level=3] [ref=e221]
+                - list [ref=e222]:
+                  - listitem [ref=e223]: Good for translation and summarization
+                  - listitem [ref=e224]: Can handle input-output transformations
+                - heading "Encoder-Only Models (BERT Family)" [level=3] [ref=e225]
+                - list [ref=e226]:
+                  - listitem [ref=e227]: Bidirectional understanding
+                  - listitem [ref=e228]: Excellent for classification and analysis
+                  - listitem [ref=e229]: Not typically used for generation
+                - heading "Interactive Exercise" [level=2] [ref=e230]
+                - paragraph [ref=e231]: "Try predicting the next word in these sequences to understand how LLMs work:"
+                - list [ref=e232]:
+                  - listitem [ref=e233]: "\"The capital of France is ___\""
+                  - listitem [ref=e234]: "\"To be or not to ___\""
+                  - listitem [ref=e235]: "\"import numpy as ___\""
+                - paragraph [ref=e236]: Notice how context helps you predict the most likely continuation!
+              - generic [ref=e237]:
+                - tablist [ref=e238]:
+                  - tab "Exercise" [selected] [ref=e239]
+                  - tab "Hints" [ref=e240]
+                - tabpanel "Exercise" [ref=e241]:
+                  - generic [ref=e242]:
+                    - heading "LLM Fundamentals Quiz" [level=3] [ref=e243]
+                    - paragraph [ref=e244]: Test your understanding of Large Language Models
+                  - button "Start Exercise" [ref=e245]
+          - generic [ref=e246]:
+            - link "Previous Lesson" [ref=e247]:
+              - /url: /courses/ai-fundamentals/lessons/history-evolution
+              - img
+              - text: Previous Lesson
+            - button "Mark as Complete" [ref=e248]:
+              - text: Mark as Complete
+              - img
+            - link "Next Lesson" [ref=e249]:
+              - /url: /courses/ai-fundamentals/lessons/capabilities-limitations
+              - text: Next Lesson
+              - img
+```

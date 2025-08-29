@@ -1,0 +1,119 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [active]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - navigation [ref=e7]:
+          - button "previous" [disabled] [ref=e8]:
+            - img "previous" [ref=e9]
+          - generic [ref=e11]:
+            - generic [ref=e12]: 1/
+            - generic [ref=e13]: "1"
+          - button "next" [disabled] [ref=e14]:
+            - img "next" [ref=e15]
+        - generic [ref=e18]:
+          - img [ref=e19]
+          - generic "Latest available version is detected (15.5.2)." [ref=e21]: Next.js 15.5.2
+          - generic [ref=e22]: Turbopack
+      - dialog "Runtime TypeError" [ref=e24]:
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]:
+              - generic [ref=e31]: Runtime TypeError
+              - generic [ref=e32]:
+                - button "Copy Error Info" [ref=e33] [cursor=pointer]:
+                  - img [ref=e34] [cursor=pointer]
+                - button "No related documentation found" [disabled] [ref=e36]:
+                  - img [ref=e37]
+                - link "Learn more about enabling Node.js inspector for server code with Chrome DevTools" [ref=e39]:
+                  - /url: https://nextjs.org/docs/app/building-your-application/configuring/debugging#server-side-code
+                  - img [ref=e40]
+            - paragraph [ref=e52]: undefined is not an object (evaluating 'courseProgress.modules')
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - paragraph [ref=e56]:
+                - img [ref=e58]
+                - generic [ref=e62]: src/lib/services/progress.service.ts (112:9) @ startModule
+                - button "Open in editor" [ref=e63] [cursor=pointer]:
+                  - img [ref=e65] [cursor=pointer]
+              - generic [ref=e68]:
+                - generic [ref=e71]: 110 |
+                - generic [ref=e72]:
+                  - generic [ref=e74]: 111 |
+                  - generic [ref=e76]: // Check if module already started
+                - generic [ref=e77]:
+                  - generic [ref=e78]: ">"
+                  - generic [ref=e79]: 112 |
+                  - generic [ref=e81]: if
+                  - generic [ref=e82]: (courseProgress
+                  - generic [ref=e83]: .
+                  - generic [ref=e84]: modules
+                  - generic [ref=e85]: .
+                  - generic [ref=e86]: find((m)
+                  - generic [ref=e87]: =>
+                  - generic [ref=e88]: m
+                  - generic [ref=e89]: .
+                  - generic [ref=e90]: moduleId
+                  - generic [ref=e91]: ===
+                  - generic [ref=e92]: "moduleId)) {"
+                - generic [ref=e93]:
+                  - generic [ref=e95]: "|"
+                  - generic [ref=e97]: ^
+                - generic [ref=e98]:
+                  - generic [ref=e100]: 113 |
+                  - generic [ref=e102]: return
+                  - generic [ref=e103]: ;
+                - generic [ref=e104]:
+                  - generic [ref=e106]: 114 |
+                  - generic [ref=e107]: "}"
+                - generic [ref=e110]: 115 |
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - paragraph [ref=e113]:
+                  - text: Call Stack
+                  - generic [ref=e114]: "50"
+                - button "Show 46 ignore-listed frame(s)" [ref=e115] [cursor=pointer]:
+                  - text: Show 46 ignore-listed frame(s)
+                  - img [ref=e116] [cursor=pointer]
+              - generic [ref=e118]:
+                - generic [ref=e119]:
+                  - text: startModule
+                  - button "Open startModule in editor" [ref=e120] [cursor=pointer]:
+                    - img [ref=e121] [cursor=pointer]
+                - generic [ref=e123]: src/lib/services/progress.service.ts (112:9)
+              - generic [ref=e124]:
+                - generic [ref=e125]:
+                  - text: startLesson
+                  - button "Open startLesson in editor" [ref=e126] [cursor=pointer]:
+                    - img [ref=e127] [cursor=pointer]
+                - generic [ref=e129]: src/lib/services/progress.service.ts (151:21)
+              - generic [ref=e130]:
+                - generic [ref=e131]:
+                  - text: startLesson
+                  - button "Open startLesson in editor" [ref=e132] [cursor=pointer]:
+                    - img [ref=e133] [cursor=pointer]
+                - generic [ref=e135]: src/stores/use-progress-store.ts (51:36)
+              - generic [ref=e136]:
+                - generic [ref=e137]:
+                  - text: LessonViewer.useEffect
+                  - button "Open LessonViewer.useEffect in editor" [ref=e138] [cursor=pointer]:
+                    - img [ref=e139] [cursor=pointer]
+                - generic [ref=e141]: src/components/course/lesson-viewer.tsx (44:7)
+        - generic [ref=e142]:
+          - generic [ref=e143]: "1"
+          - generic [ref=e144]: "2"
+    - generic [ref=e149] [cursor=pointer]:
+      - button "Open Next.js Dev Tools" [ref=e150] [cursor=pointer]:
+        - img [ref=e151] [cursor=pointer]
+      - generic [ref=e156] [cursor=pointer]:
+        - button "Open issues overlay" [ref=e157] [cursor=pointer]:
+          - generic [ref=e158] [cursor=pointer]:
+            - generic [ref=e159] [cursor=pointer]: "0"
+            - generic [ref=e160] [cursor=pointer]: "1"
+          - generic [ref=e161] [cursor=pointer]: Issue
+        - button "Collapse issues badge" [ref=e162] [cursor=pointer]:
+          - img [ref=e163] [cursor=pointer]
+  - 'heading "Application error: a client-side exception has occurred while loading localhost (see the browser console for more information)." [level=2] [ref=e167]'
+```

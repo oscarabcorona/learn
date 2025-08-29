@@ -1,0 +1,246 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - link "AI Learn" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7] [cursor=pointer]
+        - generic [ref=e16] [cursor=pointer]: AI Learn
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - heading "Navigation" [level=2] [ref=e22]
+          - navigation [ref=e23]:
+            - link "Home" [ref=e24] [cursor=pointer]:
+              - /url: /
+              - img
+              - text: Home
+            - link "Courses" [ref=e25] [cursor=pointer]:
+              - /url: /courses
+              - img
+              - text: Courses
+            - link "Playground" [ref=e26] [cursor=pointer]:
+              - /url: /playground
+              - img
+              - text: Playground
+            - link "Achievements" [ref=e27] [cursor=pointer]:
+              - /url: /achievements
+              - img
+              - text: Achievements
+            - link "Settings" [ref=e28] [cursor=pointer]:
+              - /url: /settings
+              - img
+              - text: Settings
+        - generic [ref=e29]:
+          - heading "Learning Paths" [level=2] [ref=e30]
+          - navigation [ref=e31]:
+            - link "AI Fundamentals" [ref=e33] [cursor=pointer]:
+              - /url: /courses/ai-fundamentals
+              - img
+              - generic [ref=e34] [cursor=pointer]: AI Fundamentals
+            - link "Prompt Engineering" [ref=e36] [cursor=pointer]:
+              - /url: /courses/prompt-engineering
+              - img
+              - generic [ref=e37] [cursor=pointer]: Prompt Engineering
+            - link "RAG Systems" [ref=e39] [cursor=pointer]:
+              - /url: /courses/rag-systems
+              - img
+              - generic [ref=e40] [cursor=pointer]: RAG Systems
+            - link "Agent Development" [ref=e42] [cursor=pointer]:
+              - /url: /courses/agent-development
+              - img
+              - generic [ref=e43] [cursor=pointer]: Agent Development
+            - link "Fine-tuning" [ref=e45] [cursor=pointer]:
+              - /url: /courses/fine-tuning
+              - img
+              - generic [ref=e46] [cursor=pointer]: Fine-tuning
+            - link "Production & Scaling" [ref=e48] [cursor=pointer]:
+              - /url: /courses/production-scaling
+              - img
+              - generic [ref=e49] [cursor=pointer]: Production & Scaling
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]: Total Points
+          - generic [ref=e54]: "0"
+        - generic [ref=e55]:
+          - generic [ref=e56]: Streak
+          - generic [ref=e57]: 0 days
+    - generic [ref=e58]:
+      - banner [ref=e59]:
+        - generic [ref=e60]:
+          - navigation "Breadcrumb" [ref=e61]:
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - link "Home" [ref=e64] [cursor=pointer]:
+                  - /url: /
+                  - img [ref=e65] [cursor=pointer]
+                  - generic [ref=e68] [cursor=pointer]: Home
+              - generic [ref=e69]:
+                - listitem [ref=e70]:
+                  - img [ref=e71]
+                - listitem [ref=e73]:
+                  - link "Courses" [ref=e74] [cursor=pointer]:
+                    - /url: /courses
+              - generic [ref=e75]:
+                - listitem [ref=e76]:
+                  - img [ref=e77]
+                - listitem [ref=e79]:
+                  - link "Ai Fundamentals" [disabled] [ref=e80]
+          - button "Toggle theme" [ref=e82]:
+            - img
+            - generic [ref=e83]: Toggle theme
+      - main [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - generic [ref=e90]:
+              - generic [ref=e92]: beginner
+              - heading "AI Fundamentals" [level=1] [ref=e93]
+              - paragraph [ref=e94]: Master the core concepts of AI and Large Language Models. Learn about transformers, tokenization, embeddings, and the architecture that powers modern AI systems.
+              - generic [ref=e95]:
+                - generic [ref=e96]: fundamentals
+                - generic [ref=e97]: transformers
+                - generic [ref=e98]: llm
+                - generic [ref=e99]: neural-networks
+              - generic [ref=e100]:
+                - generic [ref=e101]:
+                  - img [ref=e102]
+                  - generic [ref=e105]: 12 hours
+                - generic [ref=e106]:
+                  - img [ref=e107]
+                  - generic [ref=e110]: 2 modules
+                - generic [ref=e111]:
+                  - img [ref=e112]
+                  - generic [ref=e116]: 5 lessons
+              - button "Continue Learning" [active] [ref=e118]:
+                - img
+                - text: Continue Learning
+            - generic [ref=e119]:
+              - generic [ref=e121]: Your Progress
+              - generic [ref=e122]:
+                - generic [ref=e123]:
+                  - generic [ref=e124]:
+                    - generic [ref=e125]: Overall Completion
+                    - generic [ref=e126]: 0%
+                  - progressbar [ref=e127]
+                - generic [ref=e129]:
+                  - generic [ref=e130]:
+                    - paragraph [ref=e131]: "0"
+                    - paragraph [ref=e132]: Lessons Completed
+                  - generic [ref=e133]:
+                    - paragraph [ref=e134]: "5"
+                    - paragraph [ref=e135]: Lessons Remaining
+                  - generic [ref=e136]:
+                    - paragraph [ref=e137]: 0h
+                    - paragraph [ref=e138]: Time Spent
+            - generic [ref=e139]:
+              - generic [ref=e140]:
+                - generic [ref=e141]: What You'll Learn
+                - generic [ref=e142]: Key concepts and skills covered in this course
+              - generic [ref=e144]:
+                - generic [ref=e145]:
+                  - img [ref=e146]
+                  - generic [ref=e149]: Understand the timeline of AI development
+                - generic [ref=e150]:
+                  - img [ref=e151]
+                  - generic [ref=e154]: Learn about key breakthroughs in LLM technology
+                - generic [ref=e155]:
+                  - img [ref=e156]
+                  - generic [ref=e159]: Recognize the impact of transformers on modern AI
+                - generic [ref=e160]:
+                  - img [ref=e161]
+                  - generic [ref=e164]: Define what makes a model a "Large Language Model"
+                - generic [ref=e165]:
+                  - img [ref=e166]
+                  - generic [ref=e169]: Understand the concept of parameters and scale
+                - generic [ref=e170]:
+                  - img [ref=e171]
+                  - generic [ref=e174]: Learn about different model families and architectures
+                - generic [ref=e175]:
+                  - img [ref=e176]
+                  - generic [ref=e179]: Understand what LLMs can and cannot do
+                - generic [ref=e180]:
+                  - img [ref=e181]
+                  - generic [ref=e184]: Learn about emergent abilities
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - heading "Course Content" [level=2] [ref=e188]
+              - paragraph [ref=e189]: 2 modules • 5 lessons
+            - generic [ref=e190]:
+              - generic [ref=e193] [cursor=pointer]:
+                - button [ref=e194]:
+                  - img
+                - generic [ref=e195] [cursor=pointer]:
+                  - generic [ref=e197] [cursor=pointer]: "Module 1: Introduction to AI and LLMs"
+                  - generic [ref=e198] [cursor=pointer]: Understanding the landscape of artificial intelligence and large language models
+                  - generic [ref=e199] [cursor=pointer]:
+                    - generic [ref=e200] [cursor=pointer]:
+                      - img [ref=e201] [cursor=pointer]
+                      - generic [ref=e204] [cursor=pointer]: 90 min
+                    - generic [ref=e205] [cursor=pointer]:
+                      - img [ref=e206] [cursor=pointer]
+                      - generic [ref=e209] [cursor=pointer]: 4 lessons
+              - generic [ref=e213]:
+                - generic [ref=e214] [cursor=pointer]:
+                  - generic [ref=e215] [cursor=pointer]:
+                    - img [ref=e216] [cursor=pointer]
+                    - img [ref=e218] [cursor=pointer]
+                    - generic [ref=e221] [cursor=pointer]:
+                      - paragraph [ref=e222] [cursor=pointer]: History and Evolution of AI
+                      - generic [ref=e223] [cursor=pointer]:
+                        - generic [ref=e224] [cursor=pointer]: 20 min
+                        - generic [ref=e225] [cursor=pointer]: reading
+                  - button "Start" [ref=e226]:
+                    - img
+                    - text: Start
+                - generic [ref=e228] [cursor=pointer]:
+                  - img [ref=e229] [cursor=pointer]
+                  - img [ref=e231] [cursor=pointer]
+                  - generic [ref=e234] [cursor=pointer]:
+                    - paragraph [ref=e235] [cursor=pointer]: What are Large Language Models?
+                    - generic [ref=e236] [cursor=pointer]:
+                      - generic [ref=e237] [cursor=pointer]: 30 min
+                      - generic [ref=e238] [cursor=pointer]: interactive
+                      - generic [ref=e239] [cursor=pointer]: Has Exercise
+                - generic [ref=e241] [cursor=pointer]:
+                  - img [ref=e242] [cursor=pointer]
+                  - img [ref=e244] [cursor=pointer]
+                  - generic [ref=e247] [cursor=pointer]:
+                    - paragraph [ref=e248] [cursor=pointer]: Capabilities and Limitations
+                    - generic [ref=e249] [cursor=pointer]:
+                      - generic [ref=e250] [cursor=pointer]: 25 min
+                      - generic [ref=e251] [cursor=pointer]: reading
+                - generic [ref=e253] [cursor=pointer]:
+                  - img [ref=e254] [cursor=pointer]
+                  - img [ref=e256] [cursor=pointer]
+                  - generic [ref=e259] [cursor=pointer]:
+                    - paragraph [ref=e260] [cursor=pointer]: Real-World Applications
+                    - generic [ref=e261] [cursor=pointer]:
+                      - generic [ref=e262] [cursor=pointer]: 15 min
+                      - generic [ref=e263] [cursor=pointer]: interactive
+            - generic [ref=e267] [cursor=pointer]:
+              - button [disabled]:
+                - img
+              - generic [ref=e268] [cursor=pointer]:
+                - generic [ref=e270] [cursor=pointer]: "Module 2: Understanding Transformer Architecture"
+                - generic [ref=e271] [cursor=pointer]: Deep dive into the transformer architecture that powers modern LLMs
+                - generic [ref=e272] [cursor=pointer]:
+                  - generic [ref=e273] [cursor=pointer]:
+                    - img [ref=e274] [cursor=pointer]
+                    - generic [ref=e277] [cursor=pointer]: 120 min
+                  - generic [ref=e278] [cursor=pointer]:
+                    - img [ref=e279] [cursor=pointer]
+                    - generic [ref=e282] [cursor=pointer]: 1 lessons
+  - generic [ref=e287] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e288] [cursor=pointer]:
+      - img [ref=e289] [cursor=pointer]
+    - generic [ref=e293] [cursor=pointer]:
+      - button "Open issues overlay" [ref=e294] [cursor=pointer]:
+        - generic [ref=e295] [cursor=pointer]:
+          - generic [ref=e296] [cursor=pointer]: "0"
+          - generic [ref=e297] [cursor=pointer]: "1"
+        - generic [ref=e298] [cursor=pointer]: Issue
+      - button "Collapse issues badge" [ref=e299] [cursor=pointer]:
+        - img [ref=e300] [cursor=pointer]
+  - alert [ref=e302]
+```

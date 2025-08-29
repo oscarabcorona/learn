@@ -1,0 +1,129 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [active]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - navigation [ref=e7]:
+            - button "previous" [disabled] [ref=e8]:
+              - img "previous" [ref=e9]
+            - generic [ref=e11]:
+              - generic [ref=e12]: 1/
+              - generic [ref=e13]: "1"
+            - button "next" [disabled] [ref=e14]:
+              - img "next" [ref=e15]
+          - img
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - img [ref=e19]
+            - generic "Latest available version is detected (15.5.2)." [ref=e21]: Next.js 15.5.2
+            - generic [ref=e22]: Turbopack
+          - img
+      - dialog "Runtime TypeError" [ref=e24]:
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]:
+              - generic [ref=e31]: Runtime TypeError
+              - generic [ref=e32]:
+                - button "Copy Error Info" [ref=e33] [cursor=pointer]:
+                  - img [ref=e34] [cursor=pointer]
+                - button "No related documentation found" [disabled] [ref=e36]:
+                  - img [ref=e37]
+                - link "Learn more about enabling Node.js inspector for server code with Chrome DevTools" [ref=e39] [cursor=pointer]:
+                  - /url: https://nextjs.org/docs/app/building-your-application/configuring/debugging#server-side-code
+                  - img [ref=e40] [cursor=pointer]
+            - paragraph [ref=e49]: Cannot read properties of undefined (reading 'modules')
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - paragraph [ref=e53]:
+                - img [ref=e55]
+                - generic [ref=e59]: src/lib/services/progress.service.ts (112:24) @ ProgressService.startModule
+                - button "Open in editor" [ref=e60] [cursor=pointer]:
+                  - img [ref=e62] [cursor=pointer]
+              - generic [ref=e65]:
+                - generic [ref=e68]: 110 |
+                - generic [ref=e69]:
+                  - generic [ref=e71]: 111 |
+                  - generic [ref=e73]: // Check if module already started
+                - generic [ref=e74]:
+                  - generic [ref=e75]: ">"
+                  - generic [ref=e76]: 112 |
+                  - generic [ref=e78]: if
+                  - generic [ref=e79]: (courseProgress
+                  - generic [ref=e80]: .
+                  - generic [ref=e81]: modules
+                  - generic [ref=e82]: .
+                  - generic [ref=e83]: find((m)
+                  - generic [ref=e84]: =>
+                  - generic [ref=e85]: m
+                  - generic [ref=e86]: .
+                  - generic [ref=e87]: moduleId
+                  - generic [ref=e88]: ===
+                  - generic [ref=e89]: "moduleId)) {"
+                - generic [ref=e90]:
+                  - generic [ref=e92]: "|"
+                  - generic [ref=e94]: ^
+                - generic [ref=e95]:
+                  - generic [ref=e97]: 113 |
+                  - generic [ref=e99]: return
+                  - generic [ref=e100]: ;
+                - generic [ref=e101]:
+                  - generic [ref=e103]: 114 |
+                  - generic [ref=e104]: "}"
+                - generic [ref=e107]: 115 |
+            - generic [ref=e108]:
+              - generic [ref=e109]:
+                - paragraph [ref=e110]:
+                  - text: Call Stack
+                  - generic [ref=e111]: "51"
+                - button "Show 46 ignore-listed frame(s)" [ref=e112] [cursor=pointer]:
+                  - text: Show 46 ignore-listed frame(s)
+                  - img [ref=e113] [cursor=pointer]
+              - generic [ref=e115]:
+                - generic [ref=e116]:
+                  - text: ProgressService.startModule
+                  - button "Open ProgressService.startModule in editor" [ref=e117] [cursor=pointer]:
+                    - img [ref=e118] [cursor=pointer]
+                - generic [ref=e120]: src/lib/services/progress.service.ts (112:24)
+              - generic [ref=e121]:
+                - generic [ref=e122]:
+                  - text: ProgressService.startLesson
+                  - button "Open ProgressService.startLesson in editor" [ref=e123] [cursor=pointer]:
+                    - img [ref=e124] [cursor=pointer]
+                - generic [ref=e126]: src/lib/services/progress.service.ts (151:10)
+              - generic [ref=e127]:
+                - generic [ref=e128]:
+                  - text: startLesson
+                  - button "Open startLesson in editor" [ref=e129] [cursor=pointer]:
+                    - img [ref=e130] [cursor=pointer]
+                - generic [ref=e132]: src/stores/use-progress-store.ts (51:25)
+              - generic [ref=e133]:
+                - generic [ref=e134]:
+                  - text: LessonViewer.useEffect
+                  - button "Open LessonViewer.useEffect in editor" [ref=e135] [cursor=pointer]:
+                    - img [ref=e136] [cursor=pointer]
+                - generic [ref=e138]: src/components/course/lesson-viewer.tsx (44:7)
+              - generic [ref=e139]:
+                - generic [ref=e140]:
+                  - text: LessonPage
+                  - button "Open LessonPage in editor" [ref=e141] [cursor=pointer]:
+                    - img [ref=e142] [cursor=pointer]
+                - generic [ref=e144]: src/app/courses/[slug]/lessons/[lessonSlug]/page.tsx (30:10)
+        - generic [ref=e145]:
+          - generic [ref=e146]: "1"
+          - generic [ref=e147]: "2"
+    - generic [ref=e152] [cursor=pointer]:
+      - button "Open Next.js Dev Tools" [ref=e153] [cursor=pointer]:
+        - img [ref=e154] [cursor=pointer]
+      - generic [ref=e157] [cursor=pointer]:
+        - button "Open issues overlay" [ref=e158] [cursor=pointer]:
+          - generic [ref=e159] [cursor=pointer]:
+            - generic [ref=e160] [cursor=pointer]: "0"
+            - generic [ref=e161] [cursor=pointer]: "1"
+          - generic [ref=e162] [cursor=pointer]: Issue
+        - button "Collapse issues badge" [ref=e163] [cursor=pointer]:
+          - img [ref=e164] [cursor=pointer]
+  - 'heading "Application error: a client-side exception has occurred while loading localhost (see the browser console for more information)." [level=2] [ref=e168]'
+```

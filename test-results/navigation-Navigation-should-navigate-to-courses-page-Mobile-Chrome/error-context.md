@@ -1,0 +1,196 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Toggle menu" [ref=e6]:
+          - img
+          - generic [ref=e7]: Toggle menu
+        - navigation "Breadcrumb" [ref=e8]:
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Home" [ref=e11] [cursor=pointer]:
+                - /url: /
+                - img [ref=e12] [cursor=pointer]
+                - generic [ref=e15] [cursor=pointer]: Home
+        - button "Toggle theme" [ref=e17]:
+          - img
+          - generic [ref=e18]: Toggle theme
+    - main [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e23]:
+            - img
+            - text: Open Source Learning Platform
+          - heading "Master AI & LLM Engineering" [level=1] [ref=e24]
+          - paragraph [ref=e25]: Learn to build production-ready AI applications with hands-on exercises, real-world projects, and comprehensive learning paths.
+          - generic [ref=e26]:
+            - link "Start Learning" [ref=e27] [cursor=pointer]:
+              - /url: /courses
+              - text: Start Learning
+              - img
+            - link "Try Playground" [ref=e28] [cursor=pointer]:
+              - /url: /playground
+              - text: Try Playground
+              - img
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e32]: Courses Completed
+            - generic [ref=e34]: 0/6
+          - generic [ref=e35]:
+            - generic [ref=e37]: Total Points
+            - generic [ref=e39]:
+              - img [ref=e40]
+              - text: "0"
+          - generic [ref=e46]:
+            - generic [ref=e48]: Current Streak
+            - generic [ref=e50]: 0 days
+          - generic [ref=e51]:
+            - generic [ref=e53]: Achievements
+            - generic [ref=e55]: "0"
+        - generic [ref=e56]:
+          - heading "Why Choose Our Platform?" [level=2] [ref=e57]
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - generic [ref=e60]:
+                - img [ref=e61]
+                - generic [ref=e69]: Comprehensive Curriculum
+              - paragraph [ref=e71]: From fundamentals to advanced topics in AI/LLM engineering
+            - generic [ref=e72]:
+              - generic [ref=e73]:
+                - img [ref=e74]
+                - generic [ref=e78]: Hands-on Learning
+              - paragraph [ref=e80]: Practice with real code examples and interactive exercises
+            - generic [ref=e81]:
+              - generic [ref=e82]:
+                - img [ref=e83]
+                - generic [ref=e88]: Production Ready
+              - paragraph [ref=e90]: Learn best practices for deploying AI systems at scale
+            - generic [ref=e91]:
+              - generic [ref=e92]:
+                - img [ref=e93]
+                - generic [ref=e98]: Open Source
+              - paragraph [ref=e100]: Free and open for everyone to learn and contribute
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - heading "Choose Your Learning Path" [level=2] [ref=e103]
+            - paragraph [ref=e104]: Structured paths to guide your AI engineering journey
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - generic [ref=e108]: Beginner Path
+                - generic [ref=e109]: Start your AI journey
+              - generic [ref=e110]:
+                - generic [ref=e113]: AI Fundamentals
+                - generic [ref=e116]: Prompt Engineering
+                - link "Start Path" [ref=e117] [cursor=pointer]:
+                  - /url: /courses
+                  - text: Start Path
+                  - img
+            - generic [ref=e118]:
+              - generic [ref=e119]:
+                - generic [ref=e120]: Builder Path
+                - generic [ref=e121]: Build AI applications
+              - generic [ref=e122]:
+                - generic [ref=e125]: RAG Systems
+                - generic [ref=e128]: Agent Development
+                - link "Start Path" [ref=e129] [cursor=pointer]:
+                  - /url: /courses
+                  - text: Start Path
+                  - img
+            - generic [ref=e130]:
+              - generic [ref=e131]:
+                - generic [ref=e132]: Expert Path
+                - generic [ref=e133]: Master advanced topics
+              - generic [ref=e134]:
+                - generic [ref=e137]: Fine-tuning & Training
+                - generic [ref=e140]: Production & Scaling
+                - link "Start Path" [ref=e141] [cursor=pointer]:
+                  - /url: /courses
+                  - text: Start Path
+                  - img
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - heading "Featured Courses" [level=2] [ref=e144]
+            - paragraph [ref=e145]: Start with our most popular courses
+          - generic [ref=e146]:
+            - generic [ref=e147]:
+              - generic [ref=e150]:
+                - generic [ref=e151]: AI Fundamentals
+                - generic [ref=e152]: Master the core concepts of AI and Large Language Models. Learn about transformers, tokenization, embeddings, and the architecture that powers modern AI systems.
+              - generic [ref=e153]:
+                - generic [ref=e154]:
+                  - generic [ref=e155]: beginner
+                  - generic [ref=e156]: fundamentals
+                  - generic [ref=e157]: transformers
+                  - generic [ref=e158]: llm
+                - generic [ref=e159]:
+                  - generic [ref=e160]:
+                    - img [ref=e161]
+                    - generic [ref=e164]: 12h
+                  - generic [ref=e165]:
+                    - img [ref=e166]
+                    - generic [ref=e171]: 2 modules
+              - link "Start Course" [ref=e173] [cursor=pointer]:
+                - /url: /courses/ai-fundamentals
+                - text: Start Course
+                - img
+            - generic [ref=e174]:
+              - generic [ref=e177]:
+                - generic [ref=e178]: Prompt Engineering
+                - generic [ref=e179]: Master the art and science of crafting effective prompts. Learn systematic approaches to prompt design, advanced techniques, and best practices for getting optimal results from LLMs.
+              - generic [ref=e180]:
+                - generic [ref=e181]:
+                  - generic [ref=e182]: intermediate
+                  - generic [ref=e183]: prompts
+                  - generic [ref=e184]: few-shot
+                  - generic [ref=e185]: chain-of-thought
+                - generic [ref=e186]:
+                  - generic [ref=e187]:
+                    - img [ref=e188]
+                    - generic [ref=e191]: 10h
+                  - generic [ref=e192]:
+                    - img [ref=e193]
+                    - generic [ref=e198]: 1 modules
+              - link "Start Course" [ref=e200] [cursor=pointer]:
+                - /url: /courses/prompt-engineering
+                - text: Start Course
+                - img
+            - generic [ref=e201]:
+              - generic [ref=e204]:
+                - generic [ref=e205]: RAG Systems
+                - generic [ref=e206]: Build powerful Retrieval-Augmented Generation systems. Learn about vector databases, embeddings, chunking strategies, and advanced retrieval techniques.
+              - generic [ref=e207]:
+                - generic [ref=e208]:
+                  - generic [ref=e209]: advanced
+                  - generic [ref=e210]: rag
+                  - generic [ref=e211]: embeddings
+                  - generic [ref=e212]: vector-db
+                - generic [ref=e213]:
+                  - generic [ref=e214]:
+                    - img [ref=e215]
+                    - generic [ref=e218]: 15h
+                  - generic [ref=e219]:
+                    - img [ref=e220]
+                    - generic [ref=e225]: 1 modules
+              - link "Start Course" [ref=e227] [cursor=pointer]:
+                - /url: /courses/rag-systems
+                - text: Start Course
+                - img
+          - link "View All Courses" [ref=e229] [cursor=pointer]:
+            - /url: /courses
+            - text: View All Courses
+            - img
+        - generic [ref=e230]:
+          - heading "Ready to Start Your AI Journey?" [level=2] [ref=e231]
+          - paragraph [ref=e232]: Join thousands of learners mastering AI engineering. No sign-up required, completely free and open source.
+          - link "Start with Fundamentals" [ref=e233] [cursor=pointer]:
+            - /url: /courses/ai-fundamentals
+            - text: Start with Fundamentals
+            - img
+  - button "Open Next.js Dev Tools" [ref=e239] [cursor=pointer]:
+    - img [ref=e240] [cursor=pointer]
+  - alert [ref=e243]
+```
